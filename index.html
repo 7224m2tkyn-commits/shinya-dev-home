@@ -6,7 +6,10 @@
   <title>深夜開発大学生</title>
 
   <style>
-    *{ box-sizing:border-box; }
+
+    *{
+      box-sizing:border-box;
+    }
 
     body{
       margin:0;
@@ -18,7 +21,10 @@
     header{
       text-align:center;
       padding:90px 20px 70px;
-      background:radial-gradient(circle at top, rgba(120,120,255,0.15), transparent 45%);
+      background:
+      radial-gradient(circle at top,
+      rgba(120,120,255,0.15),
+      transparent 45%);
     }
 
     header h1{
@@ -78,11 +84,15 @@
     .thumb{
       height:180px;
       background:#10141c;
+
       display:flex;
       align-items:center;
       justify-content:center;
+
       font-size:70px;
-      border-bottom:1px solid rgba(255,255,255,0.05);
+
+      border-bottom:
+      1px solid rgba(255,255,255,0.05);
     }
 
     .card-content{
@@ -123,20 +133,30 @@
       text-align:center;
       color:#6b7280;
       padding:50px 20px;
-      border-top:1px solid rgba(255,255,255,0.05);
+      border-top:
+      1px solid rgba(255,255,255,0.05);
       line-height:1.8;
     }
 
     @media(max-width:700px){
-      header h1{ font-size:34px; }
-      .card-content h2{ font-size:25px; }
+
+      header h1{
+        font-size:34px;
+      }
+
+      .card-content h2{
+        font-size:25px;
+      }
+
     }
+
   </style>
 </head>
 
 <body>
 
   <header>
+
     <h1>深夜開発大学生</h1>
 
     <div class="line"></div>
@@ -145,19 +165,64 @@
       大学生が夜中に開発したAIツールやサイトを置いていく場所。<br>
       日常で使える便利ツールをゆるく増やしていきます。
     </p>
+
   </header>
 
   <main>
+
     <div class="section-title">
       公開中のツール
     </div>
 
     <div class="cards">
 
-      <a class="card" href="https://ai-essay-machine.streamlit.app/" target="_blank">
-        <div class="thumb">💬</div>
+      <!-- 最新：蛇足メーカー -->
+
+      <a class="card"
+      href="ここに蛇足メーカーURL"
+      target="_blank">
+
+        <div class="thumb">
+          🐍
+        </div>
 
         <div class="card-content">
+
+          <h2>蛇足メーカー🐍</h2>
+
+          <p>
+            短すぎる日本語レポートを、自然な説明や補足で目標文字数以上に仕上げるツールです。
+            あと〇〇文字足りない！ってときにどうぞ
+          </p>
+
+          <div class="bottom">
+
+            <div class="tag">
+              Japanese / AI
+            </div>
+
+            <div class="button">
+              使ってみる →
+            </div>
+
+          </div>
+
+        </div>
+
+      </a>
+
+      <!-- 2番目：英作文 -->
+
+      <a class="card"
+      href="https://ai-essay-machine.streamlit.app/"
+      target="_blank">
+
+        <div class="thumb">
+          💬
+        </div>
+
+        <div class="card-content">
+
           <h2>AI英作文修正マシーン🤖</h2>
 
           <p>
@@ -166,35 +231,58 @@
           </p>
 
           <div class="bottom">
-            <div class="tag">English / AI</div>
-            <div class="button">使ってみる →</div>
+
+            <div class="tag">
+              English / AI
+            </div>
+
+            <div class="button">
+              使ってみる →
+            </div>
+
           </div>
+
         </div>
+
       </a>
 
-      <a class="card" href="https://dasoku-maker.streamlit.app" target="_blank">
-        <div class="thumb">🐍</div>
+      <!-- Coming Soon -->
+
+      <div class="card">
+
+        <div class="thumb">
+          🌙
+        </div>
 
         <div class="card-content">
-          <h2>蛇足メーカー🐍</h2>
+
+          <h2>Coming Soon</h2>
 
           <p>
-            短すぎる日本語レポートを、自然な説明や補足で目標文字数以上に仕上げるツールです。
-            〇〇文字足りない！ってときにどうぞ
+            新しいツールを開発中です。<br>
+            深夜テンションで増殖予定。
           </p>
 
           <div class="bottom">
-            <div class="tag">Japanese / AI</div>
-            <div class="button">使ってみる →</div>
+
+            <div class="tag">
+              Under Development
+            </div>
+
           </div>
+
         </div>
-      </a>
+
+      </div>
 
     </div>
+
   </main>
 
   <footer>
+
     © 2026 深夜開発大学生<br>
+
   </footer>
 
 </body>
